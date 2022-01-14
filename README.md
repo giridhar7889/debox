@@ -9,3 +9,11 @@ Ethereum allows developers to write smart contracts which define the EVM\* instr
 Smart contracts render transactions traceable, transparent, and irreversible.
 
 Ethereum Real Estate Contracts are Flexible as contracts may be written so that any number of final sales prices, reductions in price, or increases, can be triggered based on specific events agreed to by the parties.
+
+# Motivation
+
+Blockchain technology has impacted the real estate industry in a variety of ways, including offering a new means for buyers and sellers to connect with one another.
+
+Blockchain could be used to cut intermediaries out of the real estate transaction process, thereby reducing costs.
+
+This technology could also help to codify the practice of fractional ownership of real estate.
