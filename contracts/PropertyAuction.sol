@@ -47,6 +47,16 @@ Contract PropertyAuction
         }
         return true;
     }
+    function checkpendingreturns(address sender) public view returns (uint) {
+        return pending_returns[sender];
+    }
+    function auctionend()public{
+        require(!ended,"auction is already ended");
+        require(msg.sender==manager,"You are not the manager of the auction");
+        ended=true;
+        emit AuctionEnded(highestbidder,highesbid);
+        beneficiary.transfer(highestbid);
+    }
 
 
 }

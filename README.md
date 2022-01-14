@@ -17,3 +17,11 @@ Blockchain technology has impacted the real estate industry in a variety of ways
 Blockchain could be used to cut intermediaries out of the real estate transaction process, thereby reducing costs.
 
 This technology could also help to codify the practice of fractional ownership of real estate.
+
+# Tech stack
+
+->Brownie
+->Solidity
+->Python
+->web3 library
+->IPFS
